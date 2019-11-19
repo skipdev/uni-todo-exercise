@@ -2,6 +2,11 @@ $radius: 15px;
 $width: 836px;
 $shadow: 0px 4px 5px;
 
+@keyframes fadeOut {
+  0% {opacity: 1;}
+  100% {opacity: 0;} 
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -47,7 +52,10 @@ h1 {
       border-radius: $radius;
       justify-content: center;
       align-items: center;
+      overflow: scroll;
       .outer-item {
+        
+        animation-name: fadeOut;
         margin-top: 2%;
         display: flex;
         align-items: center;

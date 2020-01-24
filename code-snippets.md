@@ -26,7 +26,7 @@ alt="background"
 ```
 
 
-# Temlate 2
+# Template 2
 
 ```js
 

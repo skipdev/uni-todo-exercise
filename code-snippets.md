@@ -1,4 +1,4 @@
-## Task 3
+## Template 1
 
 ```js
 const view = ` <img
@@ -26,11 +26,7 @@ alt="background"
 ```
 
 
-
-```
-
-
-
+# Temlate 2
 
 ```js
 
